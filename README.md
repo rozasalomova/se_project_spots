@@ -33,7 +33,7 @@ CSS Grid, Flexbox, and media queries.
 
  ## Deployment 
  This webpage is depolyed to GitHub Pages
- -Deploymetn link: 
+ -Deploymetn link:(https://git@github.com:rozasalomova/se_project_spots.git)
 
  ## Tools:
 - VS Code (code editor)
