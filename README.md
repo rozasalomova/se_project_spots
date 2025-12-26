@@ -31,10 +31,9 @@ Spots is a responsive image-sharing website where users can view and share photo
 CSS Grid, Flexbox, and media queries.
 
 
- ## Deployment 
- This webpage is depolyed to GitHub Pages
- -Deploymetn link:(https://git@github.com:rozasalomova/se_project_spots.git)
-
+ ## Deployment
+This webpage is deployed to GitHub Pages
+- [Deployment link](https://rozasalomova.github.io/se_project_spots/)
  ## Tools:
 - VS Code (code editor)
 - Git (version control)
