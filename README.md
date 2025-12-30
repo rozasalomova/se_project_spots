@@ -1,63 +1,73 @@
 # Project 3: Spots
 
-### Overview  
+### Overview
 
-* Intro  
-* Figma  
-* Images  
-  
+- Intro
+- Figma
+- Images
+
 **Intro**
-  
-This project is made so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.  
-  
-**Figma**  
-  
-* [Link to the project on Figma](https://www.figma.com/file/BBNm2bC3lj8QQMHlnqRsga/Sprint-3-Project-%E2%80%94-Spots?type=design&node-id=2%3A60&mode=design&t=afgNFybdorZO6cQo-1)
-  
-**Images**  
-  
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
-  
+
+This project is made so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.
+
+**Figma**
+
+- [Link to the project on Figma](https://www.figma.com/file/BBNm2bC3lj8QQMHlnqRsga/Sprint-3-Project-%E2%80%94-Spots?type=design&node-id=2%3A60&mode=design&t=afgNFybdorZO6cQo-1)
+
+**Images**
+
+The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster.
+
 Good luck and have fun!
 
-
 ## Project Title
- Spots
- Image sharing site.
- A responsive photo-sharing website built with HTML and CSS. Features a clean, modern design with interactive elements and mobile-friendly layout.
 
- ## Discription
-Spots is a responsive image-sharing website where users can view and share photos. The site features a clean, modern design that adapts seamlessly to different screen sizes, from desktop to mobile devices. This project demonstrates responsive web design principles using 
+Spots
+Image sharing site.
+A responsive photo-sharing website built with HTML and CSS. Features a clean, modern design with interactive elements and mobile-friendly layout.
+
+## Discription
+
+Spots is a responsive image-sharing website where users can view and share photos. The site features a clean, modern design that adapts seamlessly to different screen sizes, from desktop to mobile devices. This project demonstrates responsive web design principles using
 CSS Grid, Flexbox, and media queries.
 
+## Deployment
 
- ## Deployment
 This webpage is deployed to GitHub Pages
+
 - [Deployment link](https://rozasalomova.github.io/se_project_spots/)
- ## Tools:
+
+## Tools:
+
 - VS Code (code editor)
 - Git (version control)
 - GitHub Pages (deployment)
 
+## Tech Stack
 
- ## Tech Stack
- -HTML 
- - CSS
- -Responsive Design 
+-HTML
 
- -HTML
- CSS-Respomsive Desigh
+- CSS
+  -Responsive Design
 
- ## CSS 
- CSS Features:
+-HTML
+CSS-Respomsive Desigh
+
+## CSS
+
+CSS Features:
+
 - CSS Grid (for card layouts)
 - Flexbox (for component alignment)
 - Media Queries (for responsive design)
 
- ## Features
+## Features
+
 - Responsive design that works on desktop, tablet, and mobile
 - Clean, modern user interface
 - Profile section with user information
 - Image gallery with grid layout
 - Cross-browser compatibile
+  
 
+  Video Pitch Link: https://www.loom.com/share/1a146ec28ce747f2a461fef9bfa87545
