@@ -93,6 +93,18 @@
     padding-top: 20px;
   }
 
+  .profile__avatar {
+    width: 80px;
+    height: 80px;
+    margin: 0 0 32px 0;
+  }
+
+  .profile__add-btn {
+    margin-left: 0;
+    align-self: center;
+    width: 288px;
+  }
+
   .profile__name {
     font-size: 20px;
     margin-bottom: 6px;
@@ -110,10 +122,6 @@
     align-items: center;
   }
 
-  .profile__add-btn {
-    margin-left: 0;
-    align-self: center;
-  }
 }
 
 .profile__add-btn:hover {
