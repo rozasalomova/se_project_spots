@@ -121,7 +121,6 @@ cursor: pointer;
 .modal__input {
  display: block;
  margin: 8px 0 0;
- //to do border padding*/
 }
 
 .modal__input::placeholder {
