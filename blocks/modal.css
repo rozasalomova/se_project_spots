@@ -1,5 +1,7 @@
 .modal {
+opacity: 0;
 visibility: hidden;
+transition: opacity 0.3s ease, visibility 0.3s ease;
 background-color: #00000080;
 position: fixed;
 top: 0;
@@ -13,6 +15,34 @@ align-items: center;
 
 .modal_is-opened {
   visibility: visible;
+  opacity: 1;
+}
+
+.modal__container {
+width: 100%;
+max-width: 630px;
+border-radius: 8px;
+background-color: #fff;
+padding: 32px 50px;
+position: relative;
+box-sizing: border-box;
+}
+
+.modal__close-btn {
+opacity: 1;
+position: absolute;
+top: 32px;
+right: 50px;
+width: 40px;
+height: 40px;
+background: transparent;
+border: none;
+cursor: pointer;
+transition: opacity 0.2s ease;
+background-image: url(../images/close.svg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: 16px 16px;
 }
 
 .modal__container {
@@ -23,42 +53,6 @@ padding: 32px 50px;
 position: relative;
 box-sizing: border-box;
 }
-
-.modal__close-btn {
-position: absolute;
-top: 32px;
-right: 50px;
-width: 40px;
-height: 40px;
-background: transparent;
-border: none;
-cursor: pointer;
-}
-
-.modal_is-opened {
-  visibility: visible;
-}
-
-.modal__container {
-width: 630px;
-border-radius: 8px;
-background-color: #fff;
-padding: 32px 50px;
-position: relative;
-box-sizing: border-box;
-}
-
-.modal__close-btn {
-position: absolute;
-top: 32px;
-right: 50px;
-width: 40px;
-height: 40px;
-background: transparent;
-border: none;
-cursor: pointer;
-}
-
 
 .modal__title {
  margin: 0 0 32px;
@@ -76,9 +70,10 @@ cursor: pointer;
 .modal__input {
  display: block;
  margin: 8px 0 0;
- margin: 8px 0 0;
  border: 1px solid #ccc;
  padding: 10px;
+ width: 100%
+ box-sizing: border-box;
 }
 
 .modal__input::placeholder {
@@ -94,51 +89,18 @@ cursor: pointer;
  color: #fff;
  border: none;
  cursor: pointer;
- font-family: 'Poppins, sans-serif';
+ font-family: "Poppins", Arial, sans-serif;
  font-weight: 500;
  font-size: 16px;
- top: 18px;
- right: 32px;
  gap: 8px;
- bottom: 18px;
- left: 32px;
 }
 
-
-.modal__title {
- margin: 0 0 32px;
-}
-
-.modal__form {
- display: flex;
- flex-direction: column;
-}
-
-.modal__label {
- margin: 0 0 32px;
-}
-
-.modal__input {
- display: block;
- margin: 8px 0 0;
+.modal__submit-btn:hover {
+ background-color: #000000;
 }
 
 .modal__input::placeholder {
  color: #2121214d;
-}
-
-.modal__submit-btn {
- width: 100%;
- max-width: 156px;
- height: 52px;
- border-radius: 8px;
- top: 18px;
- right: 32px;
- gap: 8px;
- bottom: 18px;
- left: 32px;
- color: white;
- border: none;
 }
 
 @media screen and (max-width: 627px) {
