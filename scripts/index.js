@@ -29,10 +29,6 @@ editProfileBtn.addEventListener("click", function () {
     openModal(editProfileModal);
 });
 
-function closeModal(modal) {
-    modal.classList.remove("modal_is-opened");
-}
-
 editProfileBtn.addEventListener("click", function () {
     editProfileNameInput.value = profileNameEl.textContent;
     editProfileDescriptionInput.value = profileDescriptionEl.textContent;
@@ -55,7 +51,7 @@ function handleEditProfileSubmit(evt) {
  evt.preventDefault();
  profileNameEl.textContent = editProfileNameInput.value;
  profileDescriptionEl.textContent = editProfileDescriptionInput.value;
- editProfileModal.classList.remove("modal_is-opened");
+ closeModal(editProfileModal)
 }
 
 editProfileForm.addEventListener("submit", handleEditProfileSubmit);
@@ -64,7 +60,7 @@ function handleAddCardSubmit(evt) {
  evt.preventDefault();
  console.log(newPostImageInput.value);
  console.log(newPostCaptionInput.value);
- newPostModal.classList.remove("modal_is-opened");
+ closeModal(newPostModal)
 }
 
 newPostForm.addEventListener("submit",handleAddCardSubmit);

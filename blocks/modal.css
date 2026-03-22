@@ -55,7 +55,6 @@ background-position: center;
   font-weight: 500;
   font-size: 16px;
   line-height: 100%;
-  color: rgba(252, 245, 229, 1);
 }
 
 
@@ -69,6 +68,7 @@ background-position: center;
 }
 
 .modal__input {
+ border-radius: 8px;
  display: block;
  margin: 8px 0 0;
  border: 1px solid #ccc;
@@ -106,22 +106,22 @@ background-position: center;
     .modal__container {
         padding: 22px 12px 12px;
     }
-    
+
     .modal__close-btn {
         top: 12px;
         right: 12px;
     }
-    
+
     .modal__submit-btn {
         width: 100%;
         max-width: 100%;
     }
-}
 
-   .modal__input {
+    .modal__input {
         font-size: 16px;
     }
-    
+
     .modal__title {
         font-size: 18px;
     }
+}
